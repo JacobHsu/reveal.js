@@ -21,6 +21,54 @@
                 <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
                 <section data-markdown="example.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
 
+
+                <section>
+                    <div style="float:left;width:50%;">
+                        <p data-markdown>
+                                ```js
+                                function foo()
+                                {
+                                    // ...
+                                }
+                                function doSomething()
+                                {
+                                    foo()
+                                }
+                                doSomething()
+                                ```
+                        </p>
+                    </div>
+                    <div style="float:right;width:50%;padding-right:0px;">
+                        <p style="border: 2px solid black;">
+                            foo() 執行環境
+                        </p>
+                        <p style="border: 2px solid black;">
+                            doSomething() 執行環境
+                        </p>
+                        <p style="border: 2px solid black;">
+                            全域執行環境
+                        </p>
+                    </div>
+                    <br clear="all">
+                </section>
+
+                <!-- Code -->
+                <section data-markdown>
+                    <script type="text/template">
+                        ```js
+                        function foo()
+                        {
+                            // ...
+                        }
+                        function doSomething()
+                        {
+                            foo()
+                        }
+                        doSomething()
+                        ```
+                    </script>
+                   
+                </section>
                 <!-- Slides are separated by three dashes (quick 'n dirty regular expression) -->
                 <section data-markdown data-separator="---">
                     <script type="text/template">
@@ -108,8 +156,8 @@
 
             </div>
 		</div>
-
-		<script src="/js/reveal.js"></script>
+        <!--gh-pages 路徑--->
+		<script src="js/reveal.js"></script>
 
 		<script>
 

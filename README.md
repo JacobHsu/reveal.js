@@ -9,6 +9,9 @@ reveal.js comes with a broad range of features including [nested slides](https:/
 https://github.com/hakimel/reveal.js/#markdown  
 cdnjs [reveal.js](https://cdnjs.com/libraries/reveal.js/3.6.0)  
 
+reveal.js - Slide Backgrounds [Two columns](https://www.net-intro.com/slides/sample.htm)  
+
+
 ## deploy  
 
 [![NPM](https://nodei.co/npm/gh-pages.png?downloads=true&stars=true)](https://nodei.co/npm/gh-pages/)   
