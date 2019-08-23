@@ -25,6 +25,7 @@ package.json
     "deploy": "gh-pages -d dist"
   },
 ```
+https://jacobhsu.github.io/reveal.js
 
 ## Table of contents
 
