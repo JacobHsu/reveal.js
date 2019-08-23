@@ -4,7 +4,7 @@
 
 ## External 1.1
 
-Content 1.1
+Content 執行堆疊 (Chrome DevTools Sources) stop then F5
 
 Note: This will only appear in the speaker notes window.
 
